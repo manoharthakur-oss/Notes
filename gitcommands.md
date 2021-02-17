@@ -1,7 +1,7 @@
 - git init
 
 - git config --global user.name '<choose a user name>'
-- git config --global user.email '<enter a email id  '
+- git config --global user.email '<enter a email id>'
 
 - git status
 - git status -s
