@@ -28,12 +28,13 @@
 
 - git merge <branch name>
 
-
+- git push -u origin <name of repository>
+- git push <name of repository>⚠️
+- git pull <name of repository>⚠️
+- git push ⚠️
+- git pull⚠️
 
 - TERMUX TERMINAL:-
-- ctrl d
-- ctrl c
-- ctrl p
 - ls
 - ls -lart
 - cd <folder name>
@@ -58,4 +59,10 @@
 - Ecs : w
 - Ecs : q
 - Esc : w q
-- i
+
+
+===================================================
+
+TERMINOLOGY
+
+⚠️ there might be some exceptions. 
