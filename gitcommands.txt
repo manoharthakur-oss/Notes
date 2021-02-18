@@ -27,6 +27,9 @@
 - git checkout -b <branch name>
 - git checkout <file name>
 - git checkout -f 
+
+- git restore <filename>
+
 - git merge <branch name>
 
 - git push -u origin <name of repository>
