@@ -1,0 +1,38 @@
+GIT is a version control system. 
+
+Now what is version control system ?
+
+version control system:
+  We code. !
+  We change code. !
+  We code in teams. !
+  We change code in teams. !
+  But it is not easy to Merge changes made by. 
+    different collaborators in a master cof code. 
+    And keep track of changes done by every 
+    collaborator. 
+  VCS is the solution.
+  VCS is used to
+    Store files. 
+    Easy recovery of files. 
+    We can track who and when changed The code. 
+    rollback:
+      We can get previous working codes. 
+    
+
+
+
+History of version control system :-
+
+
+1. Local VCS
+      On a personal computer. 
+      Pros = can track files and rollback. 
+      Cons = if hard disk of your computer get destroyed
+             You can not recover anything you made. 
+
+
+2. Centralized VCS
+
+
+3. Distributed VCS
