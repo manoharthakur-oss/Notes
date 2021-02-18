@@ -21,7 +21,7 @@ git remote set-url origin git@github.com:manoharthakur-oss/proj-trial.git
 
 git push -u origin master
 
-git pus☝️
+git push☝️
 
 git push  origin master
 
