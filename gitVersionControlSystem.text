@@ -1,4 +1,13 @@
-GIT is a version control system. 
+GIT is a version control system.
+Made by Linus Torvalds. 
+
+HISTORY OF GIT:-
+1991 => Linux. 
+2002 => Linux used bitkeeper. 
+2005 => Bitkeeper added costs. 
+LINUS TORVALDS STATED DEVELOPING GIT
+
+========================================================
 
 Now what is version control system ?
 
@@ -20,7 +29,7 @@ version control system:
       We can get previous working codes. 
     
 
-
+========================================================
 
 History of version control system :-
 
@@ -36,3 +45,6 @@ History of version control system :-
 
 
 3. Distributed VCS
+
+
+========================================================
