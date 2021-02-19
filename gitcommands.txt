@@ -37,6 +37,8 @@
 - git pull <name of repository>⚠️
 - git push ⚠️
 - git pull⚠️
+- git dff <compare file in working tree with staging area>
+- git dff --stagged <compare the file in staging area with last committed file>
 
 - TERMUX TERMINAL:-
 - ls
