@@ -17,3 +17,29 @@ Ctrl + t. Swap last 2 letters.
 Ctrl + u. Cut the whole line with in TERMUX. 
 Ctrl + n. Cut command and copy within TERMUX. 
 Ctrl + z. Get out of git log, etc..
+
+
+- ls
+- ls -lart
+- cd <folder name>
+- cd ..
+- use tab to auto complete some commands
+- clear
+- mkdir <name your new folder>
+- rm <file name>
+- rm -rf <file name>
+- rmdir <folder name>
+- touch <name of new file>
+
+
+- NANO EDITOR:-
+- ctrl s
+- ctrl x
+
+
+- VI EDITOR:-
+- Ecs : w
+- Ecs : q
+- Esc : w q
+
+
