@@ -1,28 +1,100 @@
+First you have to create a directory in working tree. 
 
-echo "# proj-trial" >> README.
+Run GIT status command. 
+
+If it shows fatal then it is good. 
+
+Run GIT init command to make your directory a GIT repository
+
+Now add some files in your directory. 
+
+Run git add -A
+    git add --a
+    git add . 
+    git add <file name>
+
+Now check status and check whether everything is going well. 
+Then commit your changes by command. 
+git commit -m "<your message>"
+
+Now check your status again. 
+And do some changes if you want to do. 
+And commit them. 
+
+Now open your GitHub account and create an empty reporitry. 
+And name it similar to your directory in working tree. 
+
+Copy paste a command Starting with 'git remote.....' to termux. 
+
+Now run following commands. 
 git remote
 git remote add origin -v
+ IF you get 3 links after running these 3 commands then it is ok. 
 
-
+Install openssh by.  
 pkg install openssh
+
+Now copy following command to termux. AS IT IS
 ssh-keygen -t ed25519 -C "your_email@example.com"
 
+Now copy following command to termux. AS IT IS
 eval "$(ssh-agent -s)"
 
-Agent pid 13652
-
+Now copy following command to termux. AS IT IS
 ssh-add ~/.ssh/id_ed25519
 
+Now copy following command to termux. AS IT IS
 cat ~/.ssh/id_ed25519.pub
 
+
+Now you will get a key in TERMUX and copy this key. 
+Now open your repository in GitHub 
+Click on burger menu. 
+Click on settings. 
+Click on SSH and GPG keys.
+Click on add a new key. 
+Enter a (GOOD) name for your key in upper box. 
+PASTE THE key you have copied from termux in lower box. 
+NOW GENERATE YOUR KEY. By clicking on green button. 
+
+
 git push -u origin master
 
-git remote set-url origin git@github.com:manoharthakur-oss/proj-trial.git
 
+Now copy ssh url from your new GitHub reporitry. 
+And paste it into following command. 
+git remote set-url origin <paste the URL you copied>
+
+Now run the following command again. 
 git push -u origin master
+   
 
-git push☝️
+Above command will push your git local commits to 
+ GitHub server. 
 
-git push  origin master
+Now 2nd time you have to push files to GitHub server
+ you have to just enter following command. 
+git push
+This will record your changes to GitHub reporitry. 
+
+
+
+git pull 
+command is to pull the changes from GitHub repositry
+that other people have committed. 
+
+===================================================
+REMEMBER
+
+~GIT AND GITHUB ARE 2 DIFFERENT THINGS
+
+~IF U HAVE 2 OR MORE BRANCHES THERE U HAVE TO WORK DIFFERENTLY
+  WE WILL SEE THAT LATER. 
+  my suggestion is do not create 2nd branch now. 
+
+
+
+
+==================================================
 
 git clone <url> <folder>
