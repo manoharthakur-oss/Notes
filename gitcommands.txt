@@ -20,6 +20,7 @@ COMMIT COMMANDS.
 
 COMMAND TO REMOVE FILES FROM GOT REPORITRY. 
 - git rm <file name> 
+UNSTAGE YOUR FILES
 - git rm --cached <file name>
 
 BRANCH RELATED
