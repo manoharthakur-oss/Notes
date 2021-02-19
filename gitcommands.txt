@@ -13,59 +13,40 @@
 - git add -A
 - git add <file name>
 
+COMMIT COMMANDS. 
 - git commit
 - git commit -m "<your reason>"
 - git commit -a -m "<your reason>"
 
+COMMAND TO REMOVE FILES FROM GOT REPORITRY. 
 - git rm <file name> 
 - git rm --cached <file name>
 
+BRANCH RELATED
 - git branch
 - git branch <name of new branch>
 
+YO CHANGE BRANCHES. 
 - git checkout <branch name>
 - git checkout -b <branch name>
 - git checkout <file name>
+
+MATCH FILES TO THE LAST COMMIT. 
 - git checkout -f 
 
 - git restore <filename>
 
+MERGE 2 BARNCHES
 - git merge <branch name>
 
+PUSHING AND PULLING FILES. 
 - git push -u origin <name of repository>
 - git push <name of repository>⚠️
 - git pull <name of repository>⚠️
-- git push ⚠️
-- git pull⚠️
+- git push 
+- git pull
 - git dff <compare file in working tree with staging area>
 - git dff --stagged <compare the file in staging area with last committed file>
-
-- TERMUX TERMINAL:-
-- ls
-- ls -lart
-- cd <folder name>
-- cd ..
-- use tab to auto complete some commands
-- clear
-- mkdir <name your new folder>
-- rm <file name>
-- rm -rf <file name>
-- rmdir <folder name>
-- touch <name of new file>
-
-
-
-
-- NANO EDITOR:-
-- ctrl s
-- ctrl x
-
-
-- VI EDITOR:-
-- Ecs : w
-- Ecs : q
-- Esc : w q
-
 
 ===================================================
 
