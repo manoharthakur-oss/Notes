@@ -26,6 +26,7 @@ UNSTAGE YOUR FILES
 BRANCH RELATED
 - git branch
 - git branch <name of new branch>
+- git switch <name of a existing branch>
 
 YO CHANGE BRANCHES. 
 - git checkout <branch name>
@@ -46,8 +47,22 @@ PUSHING AND PULLING FILES.
 - git pull <name of repository>⚠️
 - git push 
 - git pull
-- git dff <compare file in working tree with staging area>
-- git dff --stagged <compare the file in staging area with last committed file>
+- git diff <compare file in working tree with staging area>
+- git diff --stagged <compare the file in staging area with last committed file>
+
+
+===================================================
+COMMANDS STILL TO UNDERSTAND
+
+restore
+Fetch
+Mv 
+Rm
+Sparse-checkout
+Reset
+Tag
+
+
 
 ===================================================
 
