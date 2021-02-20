@@ -62,7 +62,10 @@ Sparse-checkout
 Reset
 Tag
 
+===================================================
 
+
+FOR MORE RUN "git help git" COMMAND ON YOUR TERMINAL
 
 ===================================================
 
