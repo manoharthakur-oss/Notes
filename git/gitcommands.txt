@@ -1,3 +1,6 @@
+git help <Command name> WILL HELP YOU A LOT. 🙃🙃
+===================================================
+
 - git init
 
 - git config --global user.name '<choose a user name>'
