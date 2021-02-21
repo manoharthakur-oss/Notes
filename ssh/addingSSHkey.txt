@@ -92,8 +92,8 @@ REMEMBER
   WE WILL SEE THAT LATER. 
   my suggestion is do not create 2nd branch now. 
 
-
-
+STILL TO KNOW ABOUT
+git branch --set-upstream-to=origin/<branch> navlyut
 
 ==================================================
 
