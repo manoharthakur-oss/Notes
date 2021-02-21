@@ -30,6 +30,7 @@ Ctrl + z. Get out of git log, etc..
 - rm -rf <file name>
 - rmdir <folder name>
 - touch <name of new file>
+- sh [erase initial text]
 
 
 - NANO EDITOR:-
