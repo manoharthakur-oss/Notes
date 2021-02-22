@@ -24,7 +24,7 @@ And commit them.
 Now open your GitHub account and create an empty reporitry. 
 And name it similar to your directory in working tree. 
 
-Copy paste a command Starting with 'git remote.....' to termux. 
+Copy paste a command Starting with 'git remote origin ......' to termux. 
 
 Now run following commands. 
 git remote
