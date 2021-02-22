@@ -31,7 +31,7 @@ BRANCH RELATED
 - git branch <name of new branch>
 - git switch <name of a existing branch>
 
-YO CHANGE BRANCHES. 
+TO CHANGE BRANCHES. 
 - git checkout <branch name>
 - git checkout -b <branch name>
 - git checkout <file name>
@@ -50,8 +50,10 @@ PUSHING AND PULLING FILES.
 - git pull <name of repository>⚠️
 - git push 
 - git pull
+- git fetch [will pull all branches from remote repository]
 - git diff <compare file in working tree with staging area>
 - git diff --stagged <compare the file in staging area with last committed file>
+
 
 
 ===================================================
