@@ -28,7 +28,11 @@ git rm --cached <file name>
 
 @ BRANCH RELATED
 git branch
+
 git branch <name of new branch>
+
+git branch -d <name of branch>
+[Will delete a branch at local level. ]
 
 
 @ TO CHANGE BRANCHES. 
@@ -81,3 +85,5 @@ FOR MORE RUN "git help git" COMMAND ON YOUR TERMINAL
 TERMINOLOGY
 
 ⚠️ there might be some exceptions. 
+
+Thanks
