@@ -1,0 +1,12 @@
+~ Create a directory with same name as of Your
+  Github repository 
+~ run following commands. 
+
+git init 
+
+git remote add origin <url> 
+
+git fetch origin
+
+git checkout <branch name>
+
