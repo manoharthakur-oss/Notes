@@ -38,28 +38,28 @@ And
 
 
 @ TO CHANGE BRANCHES. 
-git checkout <branch name>
-git checkout -b <branch name>
-git checkout <file name>
-git switch <name of a existing branch>
+- `git checkout <branch name>`
+- `git checkout -b <branch name>`
+- `git checkout <file name>`
+- `git switch <name of a existing branch>`
 
 
 @ MATCH FILES TO THE LAST COMMIT. 
-git checkout -f 
+- `git checkout -f `
 
-git restore <filename>
+- `git restore <filename>`
 
 @ MERGE 2 BARNCHES
-git merge <branch name>
+- `git merge <branch name>`
 
 @ PUSHING AND PULLING FILES. 
-git push -u origin <name of repository>
-git push 
+- `git push -u origin <name of repository>`
+- `git push `
 git pull
-git fetch [will pull all branches from remote repository]
-git diff <compare file in working tree with staging area>
-git diff --stagged <compare the file in staging area with last committed file>
-git fetch [pulls all branches from remote reporitry]
+- `git fetch `[will pull all branches from remote repository]
+`git diff` <compare file in working tree with staging area>
+- `git diff --stagged <compare the file in staging area with last committed file>`
+
 
 
 
@@ -67,7 +67,7 @@ git fetch [pulls all branches from remote reporitry]
 
 
 @ COMMAND TO PUSH A NEW BRANCH $
-git push --set-upstream origin <branch name>
+- `git push --set-upstream origin <branch name>`
 
 
 
@@ -75,29 +75,29 @@ git push --set-upstream origin <branch name>
 
 @ RENAMING A GIT BRANCH $
 
-git checkout <old_name>
+- `git checkout <old_name>`
   [Will change your current branch ti "old_name"]
 
-git branch -m <new_name>
+- `git branch -m <new_name>`
   [Will rename your branch locally]
 
-git push origin -u <new_name>
+- `git push origin -u <new_name>`
   [Will push renamed branch to remote reporitry]
 
-git push origin --delete <old_name>
+- `git push origin --delete <old_name>`
   [Eill delete "old_name" from remote reporitry]
 
 
 ===================================================
 @ COMMANDS STILL TO UNDERSTAND $
-
+```
 restore
 Mv 
 Rm
 Sparse-checkout
 Reset
 Tag
-
+```
 ===================================================
 
 
