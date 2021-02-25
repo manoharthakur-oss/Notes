@@ -17,7 +17,7 @@ Ctrl + t. Swap last 2 letters.
 Ctrl + u. Cut the whole line with in TERMUX. 
 Ctrl + n. Cut command and copy within TERMUX. 
 Ctrl + z. Get out of git log, etc..
-Ctrl + alt + l Clear
+`Ctrl + alt + l Clear`
 
 
 - ls
