@@ -3,37 +3,37 @@ git help <Command name> WILL HELP YOU A LOT. 🙃🙃
 
 * `git init`
 
-git config --global user.name '<choose a user name>'
-git config --global user.email '<enter a email id>'
+- `git config --global user.name '<choose a user name>'`
+- `git config --global user.email '<enter a email id>'`
 
-git status
-git status -s
+- `git status`
+- `git status -s`
 
-git log
-git log -p -<any number>
+- `git log`
+- `git log -p -<any number>`
 
-git add .
-git add -A
-git add <file name>
+- `git add .`
+- `git add -A`
+- `git add <file name>`
 
 @ COMMIT COMMANDS. 
-git commit
-git commit -m "<your reason>"
-git commit -a -m "<your reason>"
+- `git commit`
+- `git commit -m "<your reason>"`
+- `git commit -a -m "<your reason>"`
 
 @ COMMAND TO REMOVE FILES FROM GOT REPORITRY. 
-git rm <file name> 
-UNSTAGE YOUR FILES
-git rm --cached <file name>
+- `git rm <file name> `
+- `UNSTAGE YOUR FILES`
+- `git rm --cached <file name>`
 
 @ BRANCH RELATED
-git branch
+- `git branch`
 
-git branch <name of new branch>
+- `git branch <name of new branch>`
 
-git branch -d <name of branch>
+- `git branch -d <name of branch>`
 And
-git branch --delete <name of branch>
+`git branch --delete <name of branch>`
 [Will delete a branch at local level. ]
 
 
