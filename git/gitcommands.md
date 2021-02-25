@@ -1,7 +1,7 @@
 git help <Command name> WILL HELP YOU A LOT. 🙃🙃
 ===================================================
 
-git init
+* `git init`
 
 git config --global user.name '<choose a user name>'
 git config --global user.email '<enter a email id>'
