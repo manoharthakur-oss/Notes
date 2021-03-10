@@ -3,11 +3,11 @@
 *there are many editors available on termux*
 
 * NANO EDITOR:-
-  * ctrl s
-  * ctrl x
+  * `ctrl s` save a file
+  * `ctrl x` existing the editor
 
 
 * VI EDITOR:-
-  * Ecs : w  Ecs : q
-  * Esc : w q
+  * `Ecs : w` save a file  `Ecs : q` existing the editor
+  * `Esc : w q` saving and existing the file
 
