@@ -1,0 +1,14 @@
+Lock screen 
+- Ctrl alt delete
+
+Bubble in left-bottom is like mobile drawer.
+
+START BUTTON
+1. navigate your apps
+2. Tile grid and list' of apps.
+3. Click on any alphabet to navigate easily
+4. Tiles and it's group is customisable 
+
+Using windows 10 tablet mode.
+Start. Settings. System. Tablet mode. 
+
