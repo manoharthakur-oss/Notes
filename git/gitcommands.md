@@ -3,30 +3,30 @@ git help <Command name> WILL HELP YOU A LOT. 🙃🙃
 Convert a directory in to git repository
 * `git init`
 
-### Add your email and user id
+## Add your email and user id
 - `git config --global user.name '<choose a user name>'`
 - `git config --global user.email '<enter a email id>'`
 
-### Check current status of your repository
+## Check current status of your repository
 - `git status`
 - `git status -s`
 
-### Check changes made
+## Check changes made
 - `git log`
 - `git log -p -<any number>`
 
-### addition if files to staging area
+## addition if files to staging area
 - `git add .`
 - `git add -A`
 - `git add .`
 - `git add <file name>`
 
-### COMMIT COMMANDS. 
+## COMMIT COMMANDS. 
 - `git commit`
 - `git commit -m "<your reason>"`
 - `git commit -a -m "<your reason>"`
 
-### COMMAND TO REMOVE FILES FROM GOT REPORITRY. 
+## COMMAND TO REMOVE FILES FROM GOT REPORITRY. 
 - `git rm <file name> `
 - `UNSTAGE YOUR FILES`
 - `git rm --cached <file name>`
@@ -41,8 +41,11 @@ And
 `git branch --delete <name of branch>`
 [Will delete a branch at local level. ]
 
+## git remote.
+- You can not call `remote set-url origin` just after `git init`, Because the `git remote set-url` command will not create origin, but it changes an existing remote repository URL.
 
-@ TO CHANGE BRANCHES. 
+
+## TO CHANGE BRANCHES. 
 - `git checkout <branch name>`
 - `git checkout <file name>`
 - `git switch <name of a existing branch>`
