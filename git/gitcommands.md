@@ -42,6 +42,7 @@ And
 [Will delete a branch at local level. ]
 
 ## git remote.
+- `git remote add origin`
 - You can not call `remote set-url origin` just after `git init`, Because the `git remote set-url` command will not create origin, but it changes an existing remote repository URL.
 
 
