@@ -18,7 +18,7 @@ Convert a directory in to git repository
 ## addition if files to staging area
 - `git add .`
 - `git add -A`
-- `git add .`
+- `git add --a`
 - `git add <file name>`
 
 ## COMMIT COMMANDS. 
