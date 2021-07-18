@@ -36,7 +36,7 @@ Convert a directory in to git repository
 
 - `git branch <name of new branch>` creating a new branch
 - `git checkout -b <branch name>` creats a new branch and automatically switch to it.
-- `git branch -d <name of branch>`
+- `git branch -D <name of branch>`
 And
 `git branch --delete <name of branch>`
 [Will delete a branch at local level. ]
