@@ -1,0 +1,17 @@
+
+SHUTTING DOWN
+DO'S:
+	1. save
+	2. close
+	3. direct pushing power button is considered hard shut down
+
+SLEEP mode:
+	1. do no colse all your running apps
+	2. you are just logged out
+	3. consumes a very little power
+
+RESTART:
+	1. some apps need pc to be restarted.
+
+HIBERNATE:
+	#inLaterVideos
