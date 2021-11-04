@@ -1,9 +1,7 @@
 
-### To modify user details
-    - `usermod`
+### To modify user details:`usermod`
 
-### To get _process status_
-    - `ps`
+### To get _process status_:`ps`
 
 ### Super user do `sudo`
 
