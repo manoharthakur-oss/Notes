@@ -1,27 +1,31 @@
 
-To modify user details
+### To modify user details
     - `usermod`
 
-To get _process status_
+### To get _process status_
     - `ps`
 
-Super user do `sudo`
+### Super user do `sudo`
 
-Switch user `su`
+### Switch user `su`
 
-Create new user `adduser`, `useradd`
+### Create new user `adduser`, `useradd`
 
-`who` command is used to list other users logged in.
+### `who` command is used to list other users logged in.
 
-To list all open files: `lsof`
+### To list all open files: `lsof`
 
-`man`: mannual
+### `man`: mannual
 
-`apropos`: used to get list of desired command.
+### `apropos`: used to get list of desired command.
 
-`whoami`: prints my username.
+### `whoami`: prints my username.
 
-To change password of a user:`passwd`
+### To change password of a user:`passwd`
 
-`userdel`:to delete a user
-  
+### `userdel`:to delete a user
+
+
+### create a new group:`groupadd`
+
+### `gpasswd`
