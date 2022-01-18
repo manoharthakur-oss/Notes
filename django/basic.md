@@ -69,7 +69,7 @@ __Note:__ key, value of arg3 must be strings
 
 
 ## Access form data in python code.
-1. create a form tag
+1. create a `form` tag
 2. write `action="<name of view>"` in form tag
 3. add a `textinput` tag in `form` tag.
 4. Give a name to `textarea` tag.
