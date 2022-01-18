@@ -68,3 +68,11 @@ let us say this app the default app
 __Note:__ key, value of arg3 must be strings
 
 
+## Access form data in python code.
+1. create a form tag
+2. write `action="<name of view>"` in form tag
+3. add a `textinput` tag in `form` tag.
+4. Give a name to `textarea` tag.
+5. Now `request.GET.get()` will return the values entered in form.
+
+**note:** You can use __request.GET.get()__ method in the view You are calling in action attribute of the form.
