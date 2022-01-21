@@ -1,24 +1,26 @@
 # Django
 
+**App :** A pluggable web application
+- A web project can have many apps.
 
-## Basic
+## USES OF DIFFERENT FILES.
 
-step 1
-django-admin app <app name>
+### VIEWS.PY
+1. Here we define functions of our web urls.
 
-step 2
-cd <app name>
-
-step 3
-python manage.py runserver
-
-note1 - when we make project using step 1 django creates a project and a app in it with same name.
-let us say this app the default app
+**Editing views.py file**
+- imports:
+    - from django.http import HttpResponse
 
 
+### URLS.PY
 
 
-## EDITING URLS.PY
+**Imports :**
+- `from django.urls import path, include`
+
+
+**Editing :**
 
 - make a file views.py in default app.
 - write `from django.http import HttpResponse`
@@ -38,14 +40,36 @@ let us say this app the default app
   - arg3: `name ="<custom name>"`
 
 
-- s
-- 
+
+
+## Basic
+
+step 1
+django-admin app <app name>
+
+step 2
+cd <app name>
+
+step 3
+python manage.py runserver
+
+note1 - when we make project using step 1 django creates a project and a app in it with same name.
+let us say this app the default app
+
+## Creating app
+**Commads:**
+python manage.py startapp <app name>
+
+**Note:** when you create an custom app you have to manually make __urls.py__ for it
+
+
+
 
 ## LAYING THE PIPELINE
 - in urls.py we can add custom urls  that leads to custom functions.A different function leads to a different webpage.
 - tu add   pipeline first add `url path` and then `view`
 
-## 8. Templates
+## WORKING WITH TEMPLATES
 
 - go-to settings.py add `"templates"` in `DIRS:[]`
 - in views.py import `render` from `djanjo.shortcuts`.
@@ -55,6 +79,13 @@ let us say this app the default app
   def index (index):
       return render (request,"<name of template>")
   ```
+  
+  ### method 2:
+  - create a `templates` folder in all your apps.
+  
+ [bootstrap](getbootstrap.com)
+  
+  
 ### HOW TO SEND VARIABLES TO TEMPLATES
 1.  `render(arg1, arg2, arg3)`
 
@@ -68,7 +99,7 @@ let us say this app the default app
 __Note:__ key, value of arg3 must be strings
 
 
-## Access form data in python code.
+## ACCESS FORM DATA IN PYTHON CODE.
 1. create a `form` tag
 2. write `action="<name of view>"` in form tag
 3. add a `textinput` tag in `form` tag.
